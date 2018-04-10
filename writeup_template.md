@@ -74,9 +74,11 @@ Also I trained a neural network classifier to make the classify more robust.
 
 The code for this step is contained in the 1st code cell of the IPython notebook p5_sliding_windows.ipynb.  
 
-I decided to search random window positions at the scales of 0.5, 0.25, 0.125 all over the image and came up with this:
+I decided to search random window positions at the scales of 1, 2, 3 all over the image and came up with this:
 
 ![alt text][image3]
+
+the overlap of the window is 0.5
 
 It seems that the max scale of 3 is enough for this project.
 
