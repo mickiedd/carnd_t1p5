@@ -97,17 +97,17 @@ Also, in order to make the classifier more robust, I add a neural network classi
 
 Here's an example result showing the heatmap from a series of frames of video, the result of `scipy.ndimage.measurements.label()` and the bounding boxes then overlaid on the last frame of video:
 
-### Here are six frames and their corresponding heatmaps:
+### Here are a test image the corresponding heatmap:
 
 ![alt text][image4]
 
 ![alt text][image8]
 
-### Here is the output of `scipy.ndimage.measurements.label()` on the integrated heatmap from all six frames:
+### Here is the output of `scipy.ndimage.measurements.label()` on the integrated heatmap from the test image:
 ![alt text][image9]
 
-### Here the resulting bounding boxes are drawn onto the last frame in the series:
-![alt text][image7]
+### Here the resulting bounding boxes are drawn onto the test image:
+![alt text][image9]
 
 
 
