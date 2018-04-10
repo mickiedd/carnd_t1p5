@@ -17,8 +17,8 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 [image1]: ./examples/car_not_car.png
 [image2]: ./examples/HOG_example.jpg
-[image3]: ./examples/sliding_windows.jpg
-[image4]: ./examples/sliding_window.jpg
+[image3]: ./data/sliding_windows.png
+[image4]: ./data/sliding_windows.png
 [image5]: ./examples/bboxes_and_heat.png
 [image6]: ./examples/labels_map.png
 [image7]: ./examples/output_bboxes.png
@@ -66,9 +66,9 @@ Also I trained a neural network classifier to make the classify more robust.
 
 #### 1. Describe how (and identify where in your code) you implemented a sliding window search.  How did you decide what scales to search and how much to overlap windows?
 
-The code for this step is contained in the 8th code cell of the IPython notebook p5.ipynb.  
+The code for this step is contained in the 1st code cell of the IPython notebook p5_sliding_windows.ipynb.  
 
-I decided to search random window positions at the scales of 1, 2, 3 all over the image and came up with this:
+I decided to search random window positions at the scales of 0.5, 0.25, 0.125 all over the image and came up with this:
 
 ![alt text][image3]
 
