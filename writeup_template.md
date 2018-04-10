@@ -80,8 +80,6 @@ It seems that the max scale of 3 is enough for this project.
 Ultimately I searched on 3 scales using RGB 3-channel HOG features plus spatially binned color and histograms of color in the feature vector, and alow with the neural network features, which provided a nice result.  Here are some example images:
 
 ![alt text][image4]
-
-![alt text][image8]
 ---
 
 ### Video Implementation
