@@ -20,6 +20,8 @@ The goals / steps of this project are the following:
 [image8]: ./data/car_with_heatmap.png
 [image9]: ./data/car_with_label.png
 [image10]: ./data/car_with_rawlabel.png
+[image11]: ./data/hog_example2.png
+[image12]: ./data/hog_example3.png
 [video1]: ./output_video.mp4
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/513/view) Points
@@ -48,6 +50,10 @@ Here is an example using the `YCrCb` color space and HOG parameters of `orientat
 
 
 ![alt text][image2]
+
+![alt text][image11]
+
+![alt text][image12]
 
 #### 2. Explain how you settled on your final choice of HOG parameters.
 
