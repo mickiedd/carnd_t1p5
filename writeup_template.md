@@ -57,7 +57,8 @@ I tried various combinations of parameters and at last decided to use orient = 9
 
 #### 3. Describe how (and identify where in your code) you trained a classifier using your selected HOG features (and color features if you used them).
 
-I trained a linear SVM using...
+I trained a linear SVM classifier using the combination of HOG feature vector, binned color features, as well as histograms of color.
+Also I trained a neural network calssifier to make the classify more rubost.
 
 ### Sliding Window Search
 
