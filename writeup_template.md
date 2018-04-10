@@ -24,7 +24,8 @@ The goals / steps of this project are the following:
 [image7]: ./examples/output_bboxes.png
 [image8]: ./data/car_with_heatmap.png
 [image9]: ./data/car_with_label.png
-[video1]: ./project_video.mp4
+[image10]: ./data/car_with_rawlabel.png
+[video1]: ./output_video.mp4
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/513/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
@@ -104,7 +105,7 @@ Here's an example result showing the heatmap from a series of frames of video, t
 ![alt text][image8]
 
 ### Here is the output of `scipy.ndimage.measurements.label()` on the integrated heatmap from the test image:
-![alt text][image9]
+![alt text][image10]
 
 ### Here the resulting bounding boxes are drawn onto the test image:
 ![alt text][image9]
