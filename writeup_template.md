@@ -57,12 +57,16 @@ I tried various combinations of parameters and at last decided to use orient = 9
 
 #### 3. Describe how (and identify where in your code) you trained a classifier using your selected HOG features (and color features if you used them).
 
+The code for this step is contained in the 2nd code cell of the IPython notebook p5_classifier.ipynb.  
+
 I trained a linear SVM classifier using the combination of HOG feature vector, binned color features, as well as histograms of color.
 Also I trained a neural network classifier to make the classify more robust.
 
 ### Sliding Window Search
 
 #### 1. Describe how (and identify where in your code) you implemented a sliding window search.  How did you decide what scales to search and how much to overlap windows?
+
+The code for this step is contained in the 8th code cell of the IPython notebook p5.ipynb.  
 
 I decided to search random window positions at the scales of 1, 2, 3 all over the image and came up with this:
 
@@ -72,7 +76,7 @@ It seems that the max scale of 3 is enough for this project.
 
 #### 2. Show some examples of test images to demonstrate how your pipeline is working.  What did you do to optimize the performance of your classifier?
 
-Ultimately I searched on 3 scales using YCrCb 3-channel HOG features plus spatially binned color and histograms of color in the feature vector, and alow with the neural network features, which provided a nice result.  Here are some example images:
+Ultimately I searched on 3 scales using RGB 3-channel HOG features plus spatially binned color and histograms of color in the feature vector, and alow with the neural network features, which provided a nice result.  Here are some example images:
 
 ![alt text][image4]
 ---
@@ -80,7 +84,7 @@ Ultimately I searched on 3 scales using YCrCb 3-channel HOG features plus spatia
 ### Video Implementation
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (somewhat wobbly or unstable bounding boxes are ok as long as you are identifying the vehicles most of the time with minimal false positives.)
-Here's a [link to my video result](./project_video.mp4)
+Here's a [link to my video result](./output_video.mp4)
 
 
 #### 2. Describe how (and identify where in your code) you implemented some kind of filter for false positives and some method for combining overlapping bounding boxes.
