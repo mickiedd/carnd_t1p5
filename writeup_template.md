@@ -78,7 +78,7 @@ I decided to search random window positions at the scales of 1, 2, 3 all over th
 
 ![alt text][image3]
 
-the overlap of the window is 0.5
+The overlap of the window is 0.5
 
 It seems that the max scale of 3 is enough for this project.
 
