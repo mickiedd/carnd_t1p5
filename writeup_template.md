@@ -66,7 +66,7 @@ The images shows that the shape seems clear enough to identify cars of a image b
 The code for this step is contained in the 2nd code cell of the IPython notebook p5_classifier.ipynb.  
 
 I trained a linear SVM classifier using the combination of HOG feature vector, binned color features, as well as histograms of color.
-Also I trained a neural network classifier to make the classify more robust.
+Also I trained a neural network classifier to make the classify more robust, which provided in the p5_nn_classifier.ipynb.
 
 ### Sliding Window Search
 
