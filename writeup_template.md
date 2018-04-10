@@ -110,4 +110,5 @@ Here's an example result showing the heatmap from a series of frames of video, t
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
 I think sliding window is not a very good choice for this project, maybe yolo is a better choise.
-Also I consider that neural network classifier work better than the SVM classifier when thers is enough training data, in this project, I augmentated the training data by flip each image, this operation double the training datas.
+
+Also I consider that neural network classifier work better than the SVM classifier when theres is enough training data, in this project, I augmentated the training data by flip each image, this operation double the training datas.
