@@ -18,10 +18,11 @@ The goals / steps of this project are the following:
 [image1]: ./examples/car_not_car.png
 [image2]: ./examples/HOG_example.jpg
 [image3]: ./data/sliding_windows.png
-[image4]: ./data/sliding_windows.png
+[image4]: ./data/car_with_sliding_windows.png
 [image5]: ./examples/bboxes_and_heat.png
 [image6]: ./examples/labels_map.png
 [image7]: ./examples/output_bboxes.png
+[image8]: ./data/car_with_heatmap.png
 [video1]: ./project_video.mp4
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/513/view) Points
@@ -79,6 +80,8 @@ It seems that the max scale of 3 is enough for this project.
 Ultimately I searched on 3 scales using RGB 3-channel HOG features plus spatially binned color and histograms of color in the feature vector, and alow with the neural network features, which provided a nice result.  Here are some example images:
 
 ![alt text][image4]
+
+![alt text][image8]
 ---
 
 ### Video Implementation
